@@ -3,11 +3,12 @@ import Board from "./components/Board.jsx";
 import Timer from "./components/Timer.jsx";
 
 const App = () => {
+  
   return (
-    <div className="App">
+    <div className="appStyle">
       <div>
-        <Timer />
-        <Board />
+        <Timer/>
+        <Board/>
       </div>
     </div>
   );
