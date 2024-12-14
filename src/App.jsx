@@ -1,11 +1,14 @@
 import "./App.css";
-import Board from "./components/Board";
+import Board from "./components/Board.jsx";
+import Timer from "./components/Timer.jsx";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Minesweeper</h1>
-      <Board />
+      <div>
+        <Timer />
+        <Board />
+      </div>
     </div>
   );
 }
