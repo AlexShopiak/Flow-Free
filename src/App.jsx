@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Board from "./components/Board";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-    </>
-  )
+    <div className="App">
+      <h1>Minesweeper</h1>
+      <Board />
+    </div>
+  );
 }
 
-export default App
+export default App;
