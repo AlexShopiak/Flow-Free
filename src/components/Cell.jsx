@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { mineColor } from "../util/mineColors.js";
 import Circle from "./Circle.jsx";
 
 const Cell = ({ details, updateFlag, revealCell }) => {
@@ -48,7 +47,7 @@ const Cell = ({ details, updateFlag, revealCell }) => {
   const cellstyle = {
     background: details.revealed
       ? details.value === "X"
-        ? mineColor()
+        ? details.color
         : bombChexPattern(details.x, details.y)
       : chexPattern(details.x, details.y),
     color: numColorCode(details.value),
