@@ -120,7 +120,8 @@ const Board = () => {
       setNonMineCount(newRevealedBoard.newNonMinesCount);
 
       if (newRevealedBoard.newNonMinesCount === 0) { //if win
-        Player.playSound('win');
+        //Player.playSound('win_1');
+        Player.playSoundLoop('win_2');
         console.log('set gameover true win')
         setGameOver(true);
         canClickRef.current = false;

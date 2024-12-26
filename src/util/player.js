@@ -24,7 +24,8 @@ const sounds = {
     flag_on: "/audio/flag_on.mp3",
     flag_off: "/audio/flag_off.mp3",
     lose: "/audio/lose.mp3",
-    win: "/audio/win.mp3",
+    win_1: "/audio/win_1.mp3",
+    win_2: "/audio/win_2.mp3",
 };
 
 // Ссылка на текущий воспроизводимый звук
