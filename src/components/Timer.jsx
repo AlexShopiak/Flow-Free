@@ -12,7 +12,7 @@ const Timer = () => {
 
   return (
     <div className="timerStyle">
-      {"⏱️ " + time}
+      {/*"⏱️ " + time  TODO debug the timer*/}
     </div>
   );
 }
